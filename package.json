@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@arco-design/web-react": "^2.41.3",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.6",
     "ramda": "^0.28.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rxjs": "^7.5.7"
+    "rxjs": "^7.5.7",
+    "rxjs-hooks": "0.8.0-alpha.0",
+    "rxjs-watcher": "^1.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

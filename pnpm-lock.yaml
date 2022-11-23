@@ -5,19 +5,27 @@ specifiers:
   '@types/react': ^18.0.24
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
+  date-fns: ^2.29.3
+  dayjs: ^1.11.6
   ramda: ^0.28.0
   react: ^18.2.0
   react-dom: ^18.2.0
   rxjs: ^7.5.7
+  rxjs-hooks: 0.8.0-alpha.0
+  rxjs-watcher: ^1.2.1
   typescript: ^4.6.4
   vite: ^3.2.3
 
 dependencies:
   '@arco-design/web-react': 2.41.3_2zx2umvpluuhvlq44va5bta2da
+  date-fns: 2.29.3
+  dayjs: 1.11.6
   ramda: 0.28.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   rxjs: 7.5.7
+  rxjs-hooks: 0.8.0-alpha.0_react@18.2.0+rxjs@7.5.7
+  rxjs-watcher: 1.2.1
 
 devDependencies:
   '@types/react': 18.0.25
@@ -502,6 +510,11 @@ packages:
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
 
+  /date-fns/2.29.3:
+    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
+    engines: {node: '>=0.11'}
+    dev: false
+
   /dayjs/1.11.6:
     resolution: {integrity: sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==}
     dev: false
@@ -982,6 +995,25 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /rxjs-hooks/0.8.0-alpha.0_react@18.2.0+rxjs@7.5.7:
+    resolution: {integrity: sha512-rgHaHEJPVsEZhqjHjEMu1k/7CxxmkGaaRXOBHySaN8a1web7WGL28XUylDVDerlXj1mUkPIz/LI7GfNfeLkQVQ==}
+    peerDependencies:
+      react: '>=16.8.0'
+      rxjs: '>=7.0.0'
+    dependencies:
+      react: 18.2.0
+      rxjs: 7.5.7
+      tslib: 2.4.1
+      use-constant: 1.1.1_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
+
+  /rxjs-watcher/1.2.1:
+    resolution: {integrity: sha512-TP8cxplLHAYP7DEoyPxzIFH6jqDcqegLyeewiXMVhn5XM/S+uhxVD/1NA8fyyB29TEOauM7/d7AWhF5wnZ53Jw==}
+    dependencies:
+      rxjs: 7.5.7
+    dev: false
+
   /rxjs/7.5.7:
     resolution: {integrity: sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==}
     dependencies:
@@ -1077,6 +1109,14 @@ packages:
       tslib: 2.4.1
     dev: false
 
+  /use-constant/1.1.1_react@18.2.0:
+    resolution: {integrity: sha512-sy2ttlE4kuAnNbp2P6a5aTZiGYwsZojkqaGZ31yDDjIurteUS8GOcYiPGmJ3y/LHOHkdazDdVRBZPzH3RZHffA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /use-sidecar/1.1.2_fan5qbzahqtxlm5dzefqlqx5ia:
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
@@ -1091,6 +1131,14 @@ packages:
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.4.1
+    dev: false
+
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /vite/3.2.4:
